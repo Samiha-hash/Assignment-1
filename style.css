@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+
+/* banner-1-style-start */
+.banner-top-contain {
+    display: flex;
+    justify-content: space-around;
+    margin: 38px 0;
+}
+
+.banner-top-contain h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+.banner-top-contain button {
+    width: 212px;
+    height: 43px;
+    padding: 12px 20px;
+    border: 1px solid rgb(3, 7, 16);
+    border-radius: 6px;
+    opacity: 0.6;
+}
+.box-container {
+    background-image: url(assets/Hero-bg.png);
+    height: 652px;
+    margin-bottom: 70px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 157px 221px;
+    margin-top: 26px;
+    position: static;
+}
+
+.container-box h5 {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container-box p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.container-box button{
+   margin: 40px 0;
+   background: rgb(13, 19, 33);
+   padding: 21px 24px;
+   border-radius: 8px;
+}
+.container-box button a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* banner-1-style-end */
+
+/* banner-2-style-start */
+.banner-2-container {
+    width: 980px;
+    margin: 30px auto;
+    background-color: rgba(215, 217, 224, 0.231);
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+.box-container-2 {
+    margin: 40px 98px;
+    padding-top: 40px;
+
+}
+.text-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+p {
+    color: rgba(13, 19, 33, 0.654);
+}
+.similar-box-design {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.691);
+    border-radius: 20px;
+}
+.box {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box button {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+   padding: 10px 15px;
+   margin-right: 325px;
+}
+/* banner-2-style-end */
+
+/* How I will use css property in video link------start
+banner-content-3 */
+.banner-content-3{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.links-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.resource-of-video{
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+    background-color: rgba(173, 183, 192, 0.592);
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+/* banner-4-style */
+.banner-4-container{
+    width: 980px;
+    margin: 80px auto;
+    margin-top: 80px;
+}
+.text-target{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.parent{
+    margin-top: 50px;
+    display: flex;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 23%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+.child img{
+    width: 30px;
+    height: 30px;
+}
+.child1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.child2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.child3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* footer section start */
+.last-section{
+    width: 980px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image:  linear-gradient(180deg, rgba(8, 8, 8, 0.393), rgba(42, 42, 41, 0.309)),url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px ;
+    margin-bottom: 40px;
+}
+.footer-text{
+    width: 70%;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 70px;
+}
+.footer-text h1 {
+    color: rgb(255, 255, 255);
+}
+.footer-text p{
+    color: rgba(255, 255, 255, 0.759);
+}
+.inner-input{
+    display: flex;
+}
+.inner-input input{
+    width: 440px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.inner-input button{
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.footer-2-section{
+   border-radius: 15px;
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
